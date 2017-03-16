@@ -2,29 +2,18 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>Poor People's TV Room</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ 'css/style.css' | relative_url }}">
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
 
-
-<div id="header">
-  <span class='big'>{{ site.title }}</span>
-  <span class='small'>{{ site.subtitle }}</span>
-</div>
-
-<div id="nav">
-  <a href="{{ 'index.html' | relative_url }}">Welcome</a> •
-  <a href="{{ 'two.html'   | relative_url }}">Page Two</a> •
-  <a href="{{ 'three.html' | relative_url }}">Page Three</a> •
-  <a href="http://groups.google.com/group/wwwmake">Questions? Comments?</a> •
-  <a href="https://github.com/henrythemes/jekyll-starter-theme">About</a>
-</div>
-
-<div id="content">
   {{ content }}
-</div>
 
 </body>
 </html>
-
