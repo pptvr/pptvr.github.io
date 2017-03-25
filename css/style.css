@@ -4,7 +4,7 @@
 
 div {
   box-sizing: border-box;
-  /*border: 1px solid tomato;*/
+  border: 1px solid tomato;
 }
 
 body {
