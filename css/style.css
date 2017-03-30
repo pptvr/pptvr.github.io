@@ -42,5 +42,40 @@ a:hover {
 
 #main-img{
   width: 75%;
+  position: relative;
+  /*left: 3%;*/
 }
+
+.description{
+  font-size: 2.3rem;  
+  text-align: right;
+}
+
+#test{
+  position: relative;
+  left:-3%;
+}
+
+
+
+@media (max-width: 575px){
+  #test{
+    position: relative;
+    left: -10%;
+  }
+  .description {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  #test{
+    position: relative;
+    left: -10%;
+  }
+  .description {
+    font-size: 2.0rem;
+  }
+}
+
 
